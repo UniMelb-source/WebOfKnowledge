@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://search.isiknowledge.com/esti/wokmws/ws/WOKMWSAuthenticate?wsdl" uri="xml-resources/web-service-references/WOKMWSAuthenticate/wsdl/search.isiknowledge.com/esti/wokmws/ws/WOKMWSAuthenticate.wsdl"/>
+    <system systemId="http://search.isiknowledge.com/esti/wokmws/ws/WokSearch?wsdl" uri="xml-resources/web-service-references/WokSearch/wsdl/search.isiknowledge.com/esti/wokmws/ws/WokSearch.wsdl"/>
+</catalog>

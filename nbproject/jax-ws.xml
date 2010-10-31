@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services/>
+  <clients>
+    <client name="WOKMWSAuthenticate">
+      <wsdl-url>http://search.isiknowledge.com/esti/wokmws/ws/WOKMWSAuthenticate?wsdl</wsdl-url>
+      <local-wsdl-file>search.isiknowledge.com/esti/wokmws/ws/WOKMWSAuthenticate.wsdl</local-wsdl-file>
+      <package-name>com.thomsonreuters.wokmws.cxf.auth</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>wsdlLocation</wsimport-option-name>
+          <wsimport-option-value>http://search.isiknowledge.com/esti/wokmws/ws/WOKMWSAuthenticate?wsdl</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </client>
+    <client name="WokSearch">
+      <wsdl-url>http://search.isiknowledge.com/esti/wokmws/ws/WokSearch?wsdl</wsdl-url>
+      <local-wsdl-file>search.isiknowledge.com/esti/wokmws/ws/WokSearch.wsdl</local-wsdl-file>
+      <package-name>com.thomsonreuters.wokmws.cxf.woksearch</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>wsdlLocation</wsimport-option-name>
+          <wsimport-option-value>http://search.isiknowledge.com/esti/wokmws/ws/WokSearch?wsdl</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </client>
+  </clients>
+  <jsr109>false</jsr109>
+</jax-ws>
